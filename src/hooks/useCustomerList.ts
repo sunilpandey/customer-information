@@ -19,7 +19,7 @@ const columnHeaders: ColumnHeader[] = [
     { key: "status", label: i18n.t("Status") },
 ];
 
-const TOTAL_PER_PAGE = 15;
+const TOTAL_PER_PAGE = 10;
 
 export function useCustomerList(pageNumber: number, sortOrder: string, searchTerm: string): {
     isLoading: boolean;
